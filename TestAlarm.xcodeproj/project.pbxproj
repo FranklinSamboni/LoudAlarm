@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		274820F025531A4100A63045 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274820EF25531A4100A63045 /* Application.swift */; };
+		274820FA25531B7900A63045 /* NotificationName+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274820F925531B7900A63045 /* NotificationName+Extension.swift */; };
 		27E3E5AB2551A42A0083B401 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E3E5AA2551A42A0083B401 /* AppDelegate.swift */; };
-		27E3E5AD2551A42A0083B401 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E3E5AC2551A42A0083B401 /* SceneDelegate.swift */; };
-		27E3E5AF2551A42A0083B401 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E3E5AE2551A42A0083B401 /* ViewController.swift */; };
+		27E3E5AF2551A42A0083B401 /* AlarmListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E3E5AE2551A42A0083B401 /* AlarmListViewController.swift */; };
 		27E3E5B22551A42A0083B401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E3E5B02551A42A0083B401 /* Main.storyboard */; };
 		27E3E5B42551A42C0083B401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E3E5B32551A42C0083B401 /* Assets.xcassets */; };
 		27E3E5B72551A42C0083B401 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E3E5B52551A42C0083B401 /* LaunchScreen.storyboard */; };
 		27E3E5C22551A42C0083B401 /* TestAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E3E5C12551A42C0083B401 /* TestAlarmTests.swift */; };
 		27E3E5CD2551A42C0083B401 /* TestAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E3E5CC2551A42C0083B401 /* TestAlarmUITests.swift */; };
+		27E3E5E02551A4FA0083B401 /* AddAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E3E5DF2551A4FA0083B401 /* AddAlarmViewController.swift */; };
+		27E3E5EE2551DB4C0083B401 /* Weckersound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 27E3E5ED2551DB4C0083B401 /* Weckersound.mp3 */; };
+		27E3E5F42551DC820083B401 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E3E5F32551DC820083B401 /* Alarm.swift */; };
+		27E3E5FD2551DCCB0083B401 /* AlarmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E3E5FC2551DCCB0083B401 /* AlarmRepository.swift */; };
+		27E3E6122551DF770083B401 /* Codable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E3E6112551DF770083B401 /* Codable+Extension.swift */; };
+		27E3E6202551E62D0083B401 /* AlarmListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E3E61F2551E62D0083B401 /* AlarmListPresenter.swift */; };
+		27E3E6252551EE310083B401 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E3E6242551EE310083B401 /* UIViewController+Extension.swift */; };
+		27E3E62A2551F1340083B401 /* AlarmItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E3E6292551F1340083B401 /* AlarmItemTableViewCell.swift */; };
+		27E3E63B2551FA0C0083B401 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E3E63A2551FA0C0083B401 /* Date+Extension.swift */; };
+		27E3E640255209F30083B401 /* AddAlarmPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E3E63F255209F30083B401 /* AddAlarmPresenter.swift */; };
+		27E3E64625520AEE0083B401 /* ScheduleNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E3E64525520AEE0083B401 /* ScheduleNotifications.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		274820EF25531A4100A63045 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		274820F925531B7900A63045 /* NotificationName+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationName+Extension.swift"; sourceTree = "<group>"; };
 		27E3E5A72551A42A0083B401 /* TestAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E3E5AA2551A42A0083B401 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27E3E5AC2551A42A0083B401 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		27E3E5AE2551A42A0083B401 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27E3E5AE2551A42A0083B401 /* AlarmListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListViewController.swift; sourceTree = "<group>"; };
 		27E3E5B12551A42A0083B401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27E3E5B32551A42C0083B401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27E3E5B62551A42C0083B401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +62,17 @@
 		27E3E5C82551A42C0083B401 /* TestAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E3E5CC2551A42C0083B401 /* TestAlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlarmUITests.swift; sourceTree = "<group>"; };
 		27E3E5CE2551A42C0083B401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E3E5DF2551A4FA0083B401 /* AddAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmViewController.swift; sourceTree = "<group>"; };
+		27E3E5ED2551DB4C0083B401 /* Weckersound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Weckersound.mp3; sourceTree = "<group>"; };
+		27E3E5F32551DC820083B401 /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		27E3E5FC2551DCCB0083B401 /* AlarmRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmRepository.swift; sourceTree = "<group>"; };
+		27E3E6112551DF770083B401 /* Codable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codable+Extension.swift"; sourceTree = "<group>"; };
+		27E3E61F2551E62D0083B401 /* AlarmListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListPresenter.swift; sourceTree = "<group>"; };
+		27E3E6242551EE310083B401 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		27E3E6292551F1340083B401 /* AlarmItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmItemTableViewCell.swift; sourceTree = "<group>"; };
+		27E3E63A2551FA0C0083B401 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		27E3E63F255209F30083B401 /* AddAlarmPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmPresenter.swift; sourceTree = "<group>"; };
+		27E3E64525520AEE0083B401 /* ScheduleNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleNotifications.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +100,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		274820ED25531A1100A63045 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27E3E5ED2551DB4C0083B401 /* Weckersound.mp3 */,
+				27E3E5B32551A42C0083B401 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		274820EE25531A2500A63045 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27E3E5B02551A42A0083B401 /* Main.storyboard */,
+				27E3E5B52551A42C0083B401 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		27E3E59E2551A42A0083B401 = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +141,14 @@
 		27E3E5A92551A42A0083B401 /* TestAlarm */ = {
 			isa = PBXGroup;
 			children = (
+				274820EE25531A2500A63045 /* Views */,
+				27E3E6192551E50A0083B401 /* Sections */,
+				274820ED25531A1100A63045 /* Resources */,
+				27E3E6102551DF5D0083B401 /* Helpers */,
+				27E3E5FB2551DCAC0083B401 /* Repository */,
+				27E3E5F22551DC750083B401 /* Model */,
 				27E3E5AA2551A42A0083B401 /* AppDelegate.swift */,
-				27E3E5AC2551A42A0083B401 /* SceneDelegate.swift */,
-				27E3E5AE2551A42A0083B401 /* ViewController.swift */,
-				27E3E5B02551A42A0083B401 /* Main.storyboard */,
-				27E3E5B32551A42C0083B401 /* Assets.xcassets */,
-				27E3E5B52551A42C0083B401 /* LaunchScreen.storyboard */,
+				274820EF25531A4100A63045 /* Application.swift */,
 				27E3E5B82551A42C0083B401 /* Info.plist */,
 			);
 			path = TestAlarm;
@@ -126,6 +170,78 @@
 				27E3E5CE2551A42C0083B401 /* Info.plist */,
 			);
 			path = TestAlarmUITests;
+			sourceTree = "<group>";
+		};
+		27E3E5DD2551A4DE0083B401 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				27E3E62E2551F13A0083B401 /* Cell */,
+				27E3E5AE2551A42A0083B401 /* AlarmListViewController.swift */,
+				27E3E61F2551E62D0083B401 /* AlarmListPresenter.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		27E3E5DE2551A4E20083B401 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				27E3E5DF2551A4FA0083B401 /* AddAlarmViewController.swift */,
+				27E3E63F255209F30083B401 /* AddAlarmPresenter.swift */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		27E3E5F22551DC750083B401 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27E3E5F32551DC820083B401 /* Alarm.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27E3E5FB2551DCAC0083B401 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				27E3E64525520AEE0083B401 /* ScheduleNotifications.swift */,
+				27E3E5FC2551DCCB0083B401 /* AlarmRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		27E3E6102551DF5D0083B401 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				27E3E64425520ACE0083B401 /* Extension */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		27E3E6192551E50A0083B401 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				27E3E5DD2551A4DE0083B401 /* List */,
+				27E3E5DE2551A4E20083B401 /* Add */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		27E3E62E2551F13A0083B401 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				27E3E6292551F1340083B401 /* AlarmItemTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		27E3E64425520ACE0083B401 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				27E3E6112551DF770083B401 /* Codable+Extension.swift */,
+				27E3E6242551EE310083B401 /* UIViewController+Extension.swift */,
+				27E3E63A2551FA0C0083B401 /* Date+Extension.swift */,
+				274820F925531B7900A63045 /* NotificationName+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +350,7 @@
 				27E3E5B72551A42C0083B401 /* LaunchScreen.storyboard in Resources */,
 				27E3E5B42551A42C0083B401 /* Assets.xcassets in Resources */,
 				27E3E5B22551A42A0083B401 /* Main.storyboard in Resources */,
+				27E3E5EE2551DB4C0083B401 /* Weckersound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +375,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27E3E5AF2551A42A0083B401 /* ViewController.swift in Sources */,
+				27E3E6252551EE310083B401 /* UIViewController+Extension.swift in Sources */,
+				27E3E64625520AEE0083B401 /* ScheduleNotifications.swift in Sources */,
+				27E3E6122551DF770083B401 /* Codable+Extension.swift in Sources */,
+				27E3E5E02551A4FA0083B401 /* AddAlarmViewController.swift in Sources */,
+				27E3E5AF2551A42A0083B401 /* AlarmListViewController.swift in Sources */,
+				274820FA25531B7900A63045 /* NotificationName+Extension.swift in Sources */,
 				27E3E5AB2551A42A0083B401 /* AppDelegate.swift in Sources */,
-				27E3E5AD2551A42A0083B401 /* SceneDelegate.swift in Sources */,
+				27E3E63B2551FA0C0083B401 /* Date+Extension.swift in Sources */,
+				27E3E6202551E62D0083B401 /* AlarmListPresenter.swift in Sources */,
+				27E3E62A2551F1340083B401 /* AlarmItemTableViewCell.swift in Sources */,
+				27E3E5FD2551DCCB0083B401 /* AlarmRepository.swift in Sources */,
+				27E3E5F42551DC820083B401 /* Alarm.swift in Sources */,
+				274820F025531A4100A63045 /* Application.swift in Sources */,
+				27E3E640255209F30083B401 /* AddAlarmPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
