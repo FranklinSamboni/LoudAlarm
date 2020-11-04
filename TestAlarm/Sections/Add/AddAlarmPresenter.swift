@@ -28,6 +28,7 @@ class AddAlarmPresenter {
             alarm.description = description
             alarm.date = date
             alarm.notificationIds = notificationsIds
+            alarm.enabled = true
             
         } else {
             alarm = Alarm(id: Date().timeIntervalSince1970,
@@ -43,6 +44,7 @@ class AddAlarmPresenter {
     
     func removeAlarm() {
         if let alarm = alarm {
+            scheduleNotifications.cancelNotifications(ids: alarm.notificationIds)
             alarmRepository.delete(alarm: alarm)
         }
     }
